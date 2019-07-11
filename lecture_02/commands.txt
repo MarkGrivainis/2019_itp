@@ -2,20 +2,20 @@ List of the commands we used in the first lecture
 
 In terminal / PowerShell depending on OS
 
-
 Shell Commands:
-pwd                         - List the path of the current directory
+pwd                     - List the path of the current directory
 cd <path>               - Change directory using the provided path
-mkdir <dir name> - Make a new directory called <dir name> in the current directory
-ls                             - List the contents of the directory
-ll or ls -l                  - List the contents with more detailed information (MAC)
+mkdir <dir name>        - Make a new directory called <dir name> in the current directory
+ls                      - List the contents of the directory
+ll or ls -l             - List the contents with more detailed information (MAC)
 
 
 Conda Commands:
+
 conda create -n <env name> python=<python version> <packages>
+
     This command will create a new conda environment called <env name> using <python version> and then installing the listed <packages>
-    eg:
-    conda create -n test_env python=3.7 jupyterlab seaborn pandas numpy
+    eg: conda create -n test_env python=3.7 jupyterlab seaborn pandas numpy
 
 conda env list
     This command will list all of the conda environments which are installed
