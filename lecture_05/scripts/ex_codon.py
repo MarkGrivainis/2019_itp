@@ -31,5 +31,4 @@ gen_code = {'uuu': 'Phe', 'uuc': 'Phe', 'uua': 'Leu', 'uug': 'Leu',
 # for key, value in gen_code.items():
 #     aa_codon_map[value].append(key)
 
-
 pprint.pprint(aa_codon_map)
