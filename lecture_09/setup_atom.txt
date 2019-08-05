@@ -21,6 +21,7 @@ Python ENV addons
 
 pip install colorama black pycodestyle pyflakes pylint 'python-language-server[all]'
 
+Start atom from terminal / powershell using the 'atom' keyword
 
 atom addons:
   python-black
