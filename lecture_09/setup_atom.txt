@@ -32,3 +32,5 @@ atom addons:
     https://atom.io/packages/atom-ide-ui
   atom-ide-debugger-python
     https://atom.io/packages/atom-ide-debugger-python
+  todo-show
+    https://atom.io/packages/todo-show
